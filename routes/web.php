@@ -22,10 +22,27 @@ Route::get('/', function () {
 
 // Ejercicio 1
 
+// GET ROUTE
 Route::get('/ejercicio1', function () {
     return "GET OK";
 });
 
+// POST ROUTE
 Route::post('/ejercicio1', function () {
     return "POST OK";
 });
+
+// PUT ROUTE
+Route::put('/ejercicio1', function(){
+    return "PUT OK";
+});
+
+// PATCH ROUTE
+Route::patch('/ejercicio1', function(){
+    return "PATCH OK";
+});
+
+Route::delete('/ejercicio1', function(){
+    return "DELETE OK";
+});
+
